@@ -77,9 +77,9 @@ menu
 		introc=Jika anda boleh berbahasa Inggeris dan anda ingin menyumbang tenaga untuk permainan ini, sila layari {0} atau tolong sebarkan berita ini.
 		webglwarning=Jika pemain web memberi sebarang masalah, sila cuba salah satu link yang tertera di bawah.
 nitori
-	storyintro=Nampaknya kita ada pelanggan baru lah.\nMari tengok bagaimana kau mencuba permainan ciptaanku.\nJangan termenung saja!
-	storyfinished=Bagus, budak skema.\nRasanya engkau bukannya datang untuk melihat saja.\nSekarang, cubalah {0} untuk cabaran yang sebenar!
-	compilationfinished=Amboi! Kagumnya aku.\nTapi tunggulah apabila permainan ini sudah lengkap.\n{0} baru sahaja bermula!
+	storyintro=Nampaknya kita ada pelanggan baru.\nMari tengok bagaimana kau mencuba permainan ciptaanku.\nJangan termenung saja!
+	storyfinished=Bagus, budak skema!\nRasanya engkau bukannya datang untuk melihat saja.\nSekarang, cubalah {0} untuk cabaran yang sebenar!
+	compilationfinished=Amboi! Kagumnya~\nTapi tunggulah apabila permainan ini sudah lengkap.\n{0} baru sahaja bermula!
 microgame
 	FreezeFrogs
 		command=Bekukan!
@@ -92,6 +92,7 @@ microgame
 		igname=Kucing Terlepas
 	Spider
 		command=Suapkan!
+		igname=Jamuan Sang Lelabah
 	Donation
 		command=Kutip 3!
 		igname=Tabung Derma
@@ -117,15 +118,16 @@ microgame
 		igname=Isi Tempat Kosong
 	RockBand
 		command=Beraksi!
+		igname=Subwoofer
 	ChenBike
 		command=Honk!
 		igname=Honk! Honk!
 	MasterSparkCode
-		command=Santau!
+		command=Jampi!
 		igname=Latihan Sasaran
 	OkuuFire
 		command=Selaraskan!
-		igname=Tenangkan Diri
+		igname=Dalam Kawalan
 	YukariCake
 		command=Curi!
 		igname=Kuih Manis
@@ -134,7 +136,7 @@ microgame
 		igname=Kelawar Berjalan
 	SuikaShake
 		command=Goncang!
-		igname=Oni Ber-arak
+		igname=Kaki Botol
 	TouhouSort
 		command=Susun ikut {0}!
 		hat=aksesori kepala

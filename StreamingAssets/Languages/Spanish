@@ -57,7 +57,7 @@ menu
 		fullscreen=Pantalla completa
 		language=Idioma
 		graphics=Calidad de los gráficos
-			0=Fluida
+			0=Fluido
 			1=Rápida
 			2=Simple
 			3=Buena
@@ -87,7 +87,7 @@ microgame
 		igname=Congelaranas
 	Slingshot
 		command=¡Lanza!
-		igname=Matacabezas
+		igname=¡Las Cabezas en Alto!
 	ChenFood
 		command=¡Que no te coman!
 		igname=Pezscape
@@ -106,7 +106,7 @@ microgame
 		igname=Poción Peligrosa
 	GhostFood
 		command=¡Come y mastica!
-		igname=Fantasma Tragón
+		igname=Yuyukomida
 	Spaceship
 		command=¡Despega!
 		igname=Programa Espacial Youkai
@@ -122,7 +122,7 @@ microgame
 		igname=SubGuaufer
 	ChenBike
 		command=¡Honk!
-		igname=¿Qué bocinas tú?
+		igname=¡Honk Honk!
 	MasterSparkCode
 		command=¡Conjura!
 		igname=Master Spark al blanco
@@ -134,7 +134,7 @@ microgame
 		igname=Robapostres
 	RemiCover
 		command=¡Dale sombra!
-		igname=Negocio sombrío
+		igname=Caminata sombría
 	SuikaShake
 		command=¡Quítalas de encima!
 		igname=Agitar, Sin Mezclar

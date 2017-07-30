@@ -93,7 +93,7 @@ microgame
 		igname=Kattenkwaad
 	Spider
 		command=Voed!
-		igname=Voer de Spin
+		igname=Voer het Spinnetje
 	Donation
 		command=Verzamel 3!
 		igname=Muntenvangst
@@ -169,6 +169,8 @@ credits
 	localization=Vertaling
 		management=Management Vertaling
 	sfx=Geluidseffecten
+	voice=Stem van Nitori
+	trailer=Demo Trailer
 	socialmedia=Promotie/Sociale Media
 	touhou=Deze fangame is gebaseerd op Touhou Project, gecreëerd door ZUN
 	thanks=Met Bijzondere Dank Aan

@@ -146,7 +146,7 @@ microgame
 		igname=キャラソート
 	FlanGrab
 		command=守れ！
-		igname=禁じられた遊び
+		igname=きゅっとしてドカーン
 	PaperThief
 		command=ゴールまで走れ！
 		commandb=あぶない！
