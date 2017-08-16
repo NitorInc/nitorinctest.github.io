@@ -153,8 +153,6 @@ microgame
 		commandc=Schiet neer!
 		commandd=Versla haar!
 		igname=Komkommer en Kwel
-	KogasaScare
-		igname=De Verschrikkelijke Youkai
 credits
 	intro={0} was mede mogelijk gemaakt door de volgende fans!
 	kapptain=Creatief Directeur, Programmeur, Team "Kapptain"

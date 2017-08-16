@@ -19,58 +19,58 @@ stage
 		newhighscore=新纪录！
 menu
 	yes=是
-	no=否
+	no=不是
 	ok=OK
-	back=返回
+	back=回去
 	backalt=往回去
 	confirm=确定
 	cancel=取消
 	on=开
 	off=关
-	play=开始游戏
+	play=玩
 	main
 		story=故事模式
 			description=一直不停地玩故事模式！你的分数能拿多高呢？
 		compilation=街机模式
 		practice=游戏练习
-			description=磨练你的游戏技巧，创造新的最高分，然后再跟你朋友炫耀吧！
+			description=磨练你的游戏技巧，然后把你的最高分数调高它。（所以可以跟你朋友夸耀了。。。何）
 		quit=退出游戏
 			prompt=你确定要退出{0}吗？
 		settings=设置
 		credits=片尾
 	gamemode=请选游戏模式！
-		locked1=未解锁！完成{0}才能解锁哦。
-		locked2=未解锁！在{1}得到{0}或多才能解锁哦
+		locked1=封锁了！完成{0}才能解锁哦。
+		locked2=封锁了！在{1}得到{0}或多才能解锁哦
 		highscore=最高纪录：{0}
 		compilationmode
-			description=挑战一下你能承受几多关！没有头目关哦。
+			description=挑战一下你能承受几多个游戏！没有头目阶段哦。
 		compilation=河童概略
 			description=普通街机模式：全部游戏会被“洗牌”。
-		compilationfast=河童到底
-			description=超级无敌快到爆！
+		compilationfast=最大容量
+			description=超级无敌地快了啦！！
 		compilationmystery=（须要文件）
-			description=糟了，本关的图纸弄丢了。呃。。。要怎样。。。你自己想吧。
-		compilationhard=黄瓜狱
-			description=最高难度！只有一条命！你能坚持多久？
+			description=糟了，我们不小心地把这次的蓝图弄丢了。呃。。。要怎样。。。你自己想吧。
+		compilationhard=青瓜狱
+			description=全部都是最难的游戏！只有一条命！你能坚持多久？
 	settings
 		resolution=屏幕解析度
 		fullscreen=全屏
 		language=语言
-		graphics=图像质量
+		graphics=图学素质
 			0=最快
 			1=快
 			2=普通
-			3=清晰
-			4=高清
-			5=超清
+			3=不错
+			4=好样的
+			5=完美
 		volume=音量
-			master=整体
+			master=主要
 			music=音乐
 			sfx=音效
 			voice=语音
 	microgamecredits
 		art=美术：{0}
-		code=程序：{0}
+		code=编码：{0}
 		music=音乐：{0}
 	splash
 		introa=这游戏的试玩版是东方Project的衍生作品，由ZUN 制作。
@@ -153,10 +153,8 @@ microgame
 		commandc=射！
 		commandd=打败她！
 		igname=青瓜追逐
-	KogasaScare
-		igname=哇啊！妖怪？！
 credits
-	intro={0}能成功全赖以下粉丝们的支持！
+	intro={0}能成功都是因为一下的粉丝！
 	kapptain=主任，程序员，经理，"Kapptain“队长
 	leadart=主画家，角色设计师
 	UI=选单和阶段图学
@@ -165,7 +163,7 @@ credits
 	microgame
 		management=游戏管理员
 		managementalt=协同合作管理员
-		code=游戏程序
+		code=游戏编码
 		art=游戏美术
 		music=游戏音乐
 	localization=本土化家

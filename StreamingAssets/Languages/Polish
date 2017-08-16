@@ -153,8 +153,6 @@ microgame
 		commandc=Zestrzel!
 		commandd=Pokonaj ją!
 		igname=W pogoni za ogórkiem
-	KogasaScare
-		igname=Bój Się
 credits
 	intro={0} powstało dzięki niżej wymienionym fanom!
 	kapptain=Kierunek twórczy, Programista, "Kappitan" drużyny
