@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <style>
-        #c {
-            display: block;
-	        text-align:center;
-	        margin:auto
-        }
-    </style>
   <head>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>NitorInc. Demo | Web Player</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/NitorInc Demo WebGL.json", {onProgress: UnityProgress});
-    </script>
   </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 720px"></div>
-      <div class="footer">
-        <div class="title">NitorInc.: Touhou Microgame$ Demo</div>
-    <div id = "c">
-        <a href="https://github.com/NitorInc/NitoriWare/releases/tag/1.0.1"><img src="images/dlbtn.png" style = "position: relative; left:150px; top: 30px"></a>
-    </div>
-      </div>
+  <style>
+  
+  #c {
+	  display: block;
+	  text-align:center;
+	  margin:auto
+  }
+  #grad {
+  background: #3FF; /* For browsers that do not support gradients */
+  background: linear-gradient(to right, #0FF , #0F6); /* Standard syntax */
+  }
+  hr {
+    border: 0
+  } 
+  </style>
+
+  <img style="position:static" src="images/LogoNitorIncSubtitle.png">
+
+  <body background="images/bg_2.png">
+  <hr size="10px" id="grad" border="0px">
+  <p id="c" style="
+  font-family:Pacifico; 
+  font-size:95px; 
+  text-shadow:3px #000; 
+  position:relative; 
+  top:5px; 
+  color:#3FF; 
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  ">Demo Trailer</p>
+  <iframe id = "c" src='https://www.youtube.com/embed/8G_VgpNzR8I' height="500" width="750" style="position:relative; top:8px">
+  </iframe>
+	<div id = "c" style = "position: relative; top: 100px">
+ 	<a href="game.html"><img src="images/playbutton.png" style = "position: relative; right: 80px"></a>
+	<a href="https://github.com/NitorInc/NitoriWare/releases"><img src="images/dlbtn.png" style = "position: relative; left: 80px">		    </a>
     </div>
   </body>
 </html>
