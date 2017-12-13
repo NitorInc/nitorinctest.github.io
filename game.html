@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>NitorInc. Demo | Web Player</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/NitorInc Demo WebGL.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body background="images/bg_2.png">
+  <img style="position:static" src="images/LogoNitorIncSubtitle.png">
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 720px; position: relative; top: 300px"></div>
+      <div class="footer" style="font-family:Pacifico; font-size:36px; position: relative; top: 300px">
+NitorInc.: Touhou Microgames$ Demo.
+      </div>
+    </div>
+  </body>
+</html>
