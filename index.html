@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>NitorInc. Demo | Web Player</title>
+    <link rel="reset" href="TemplateData/reset.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
@@ -17,34 +18,44 @@
 	  margin:auto
   }
       
-     #logo {margin: 3% 0 70px 3%; height:70px; display:block;}
+      #logo { display:block;}
+        #logo img  {margin: 3% 0 70px 3%; width: 200px;}
       
       div {display: inline;}
       
-      .download_btn {margin: 0 auto; padding-top: 30px;}
+      #btn {position: relative;
+margin: 0 auto; display: block;}
+        #btn img {margin: 40px; height: 100px;}
     
       
-      body {background-image: url(images/bg_3.png)}
+      body {background-image: url(images/bg_3.png); padding: 0; margin: 0;}
       
       h2 {font-family: 'Nunito', sans-serif; width: 70%; font-size:14px; position:relative; color: #292d33; text-align: left; margin: 0 auto; margin-bottom; 50px;}
       
       .trailer {padding: 60px 0 60px 0; background-color: #f7f5f4; display: block;}
       
-    
-       .social img {width: 30px; float: right;}
+      .footer {float:right;}
+        .social img {width: 30px; padding: 2px;}
+        .footer h2 {margin: 30px 10px; text-decoration: none; color:black;}
+            .footer h2:hover {color: #2ca335; font-size:18px;}
       
       
       /* Mobile */
       @media only screen and (min-width: 768px) {
           
-          #logo{width: 90%; height: 100px;}
+          #logo{width: 90%;}
+                  #logo img  {margin: 3% 10%; width:90%; height: auto;}
+          
+          h2 {width: 90%; font-size: 20px;}
+          
+          #btn img {margin: 30px auto; display: block;}
         
       }
 
   </style>
  
   <body>
-        <div id="logo"><img src="images/LogoNitorIncSubtitle.png"></div>
+      <div id="logo"><img src="images/LogoNitorIncSubtitle.png"></div>
 
       <div class="trailer">
         <h2>Collaborative Touhou fangame full of rapidfire microgames that YOU can help make: http://bit.do/nitorinccollab  Discord: http://discord.gg/Fua4bgj  DM's welcome!</h2>
@@ -52,17 +63,20 @@
         </iframe>
       </div>
       
-	<div class ="download_btn">
+	<div id="btn">
 	<a href="https://github.com/NitorInc/NitoriWare/releases/tag/1.0.1"><img src="images/dlbtn.png"> </a>
     <a href="game.html"><img src="images/playbutton.png"></a>
     </div>
       
-      <div><!-- Screenshots --></div>
-                                                                                                                                            
+      <div calss="screenshots"><!-- Screenshots
+            <img src="">
+
+
+        --></div>                                                                                                                                        
   </body>
     
-         <div class="social">
-        <a class="social" href="http://bit.do/nitorinccollab">Contribute!</a>
+        <div class="footer">
+        <h2 href="http://bit.do/nitorinccollab">Contribute!</h2>
         
         <a class="social" href=" https://twitter.com/nitorinc"><img src="images/twittericn.png"></a>
         <a class="social" href="https://twitter.com/nitorinc?lang=en"><img src="images/fbicn.png"></a>
