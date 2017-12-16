@@ -1,40 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-us">
+    <style>
+        #c {
+            display: block;
+	        text-align:center;
+	        margin:auto
+        }
+    </style>
   <head>
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>NitorInc. Demo | Web Player</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/NitorInc Demo WebGL.json", {onProgress: UnityProgress});
+    </script>
   </head>
-
-  <link href="styles.css" rel="stylesheet">
-
-  <img style="position:static" src="images/LogoNitorIncSubtitle.png">
-
-  <body background="images/bg_2.png">
-  <div style="height: 30px"></div>
-  <div id="grad" style="width: 100%; height: 50px;">
-	<div id = "c"
-		<p style="text-align: right; font-family: Kanit; font-size: 3vh; vertical-align: middle;"><marquee>Touhou Microgame$</marquee></p>
-	</div>
-  </div>
-  <br>  
-  <p id="c" style="
-  font-family:Pacifico; 
-  font-size:95px; 
-  text-shadow:3px #000; 
-  position:relative; 
-  top:5px; 
-  color:#3FF; 
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  ">Demo Trailer</p>
-  <iframe id = "c" src='https://www.youtube.com/embed/8G_VgpNzR8I' height="500" width="750" style="position:relative; top:8px">
-  </iframe>
-	<div id = "c" style = "position: relative; top: 100px">
- 	<a href="game.html"><img src="images/playbutton.png" style = "position: relative; right: 80px"></a>
-	<a href="https://github.com/NitorInc/NitoriWare/releases"><img src="images/dlbtn.png" style = "position: relative; left: 80px">		    </a>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 720px"></div>
+      <div class="footer">
+        <div class="title">NitorInc.: Touhou Microgame$ Demo</div>
+    <div id = "c">
+        <a href="https://github.com/NitorInc/NitoriWare/releases/tag/1.0.2"><img src="images/dlbtn.png" style = "position: relative; left:150px; top: 30px"></a>
+    </div>
+      </div>
     </div>
   </body>
 </html>
