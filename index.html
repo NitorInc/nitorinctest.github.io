@@ -7,7 +7,7 @@
     <title>NitorInc. Demo | Web Player</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-      <link href="https://fonts.googleapis.com/css?family=Coustard" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
   </head>
   <style>
   
@@ -17,19 +17,22 @@
 	  margin:auto
   }
       
-     #logo {margin: 3%; height:70px; display:block;}
+     #logo {margin: 3% 0 70px 3%; height:70px; display:block;}
       
-      #download_btn {margin: 0 auto; padding-top: 30px;}
-        #downlaod_btn {display: block; margin: 0 auto; padding:50px;}
+      div {display: inline;}
+      
+      .download_btn {margin: 0 auto; padding-top: 30px;}
+    
       
       body {background-image: url(images/bg_3.png)}
       
-      h2 {font-family: 'Coustard', serif; width: 70%; font-size:14px; position:relative; color: #292d33; text-align: left; margin: 0 auto; margin-bottom; 50px;}
+      h2 {font-family: 'Nunito', sans-serif; width: 70%; font-size:14px; position:relative; color: #292d33; text-align: left; margin: 0 auto; margin-bottom; 50px;}
       
-      .trailer {width:1--%; padding: 60px 0 60px 0; background-color: #f7f5f4;display: block;}
+      .trailer {padding: 60px 0 60px 0; background-color: #f7f5f4; display: block;}
       
-      .social {float:left}
-        .social img {width: 30px}
+    
+       .social img {width: 30px; float: right;}
+      
       
       /* Mobile */
       @media only screen and (min-width: 768px) {
@@ -49,9 +52,9 @@
         </iframe>
       </div>
       
-	<div id ="download_btn">
- 	<a href="game.html"><img src="images/playbutton.png"></a>
+	<div class ="download_btn">
 	<a href="https://github.com/NitorInc/NitoriWare/releases/tag/1.0.1"><img src="images/dlbtn.png"> </a>
+    <a href="game.html"><img src="images/playbutton.png"></a>
     </div>
       
       <div><!-- Screenshots --></div>
