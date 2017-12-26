@@ -1,111 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/zbt3alj.css">
     <meta charset="utf-8">
+      <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>NitorInc. Demo | Web Player</title>
-    <link rel="reset" href="TemplateData/reset.css">
+    <title>NitorInc.</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-      <link href="https://fonts.googleapis.com/css?family=Nunito:600,600i,700,700i,800,800i,900" rel="stylesheet">
-      
+    <link rel="stylesheet" href="TemplateData/reset.css">
   </head>
-  <style>
-  
-  #c {
-	  display: block;
-	  text-align:center;
-	  margin:auto
-  }
-      
-      #logo {}
-        #logo img  {margin: 20px; height: 100px; float:left;}
-
-      
-      #btn {position: relative;
-margin-left: 30%; display: block;}
-        #btn img {margin: 40px; height: 100px;}
     
-      
-      body {background-image: url(images/bg_3.png); padding: 0; margin: 0;}
-      
-      h2 {
-          font-family: 'Nunito', sans-serif; 
-          font-weight: 900;
-          font-size:14px; 
-          position:relative; 
-          color: #292d33; 
-          text-align: left; 
-          margin: 0 auto; 
-          padding: 20px; 
-          text-align:center;
-          font-size: 30px;
-          clear: right;
-      }
-      
-      .trailer {padding: 60px 0 60px 0; background-color: rgba(123, 224, 199, .8); display: block; box-shadow: inset 0px 0px 150px 100px rgba(113, 213, 252, .5);}
-      
-      .screenshots {width: 70%;}
-      
-      .footer{}
-        .social img {width: 30px; padding: 5px;}
-      .footer a {text-decoration: none;  display:inline-block; margin:10px auto;}
-        .footer h2 {
-            margin: 30px 10px; 
-            text-decoration: none; 
-            color: #3eb5b3; 
-            border: 5px solid #3eb5b3;
-            border-radius: 5px; 
-            text-align: center; 
-            margin: 0 auto; 
-            background-color:#c6efff; 
-            padding: 5px;}
-            .footer h2:hover {color: #2ca335;}
-      
-      
-      /* Mobile */
-      @media only screen and (max-width: 568px) {
-          
-          #logo{width: 90%;}
-                  #logo img  {margin: 3% 10%; width:90%; height: auto;}
-          
-          h2 {width: 90%; font-size: 20px;}
-          
-          #btn img {margin: 30px auto; display: block;}
+    <style>
+        #c {
+            display: block;
+	        text-align:center;
+	        margin:auto
+        }
         
-      }
+        body {background-color: #2b2733;}
+        
+        .bottom {background-image: url(images/aqua_bg_flat.png)}
+        
+        .btn {background-image:url(images/btn_flat.png); border-radius: 100px; width: 200px; height: auto; border:1px solid white; display: block;}
+            .os {width: 200px; height: auto;}
+            .btn:hover {border:4px solid white;}
+    
 
-  </style>
- 
+        
+        
+    </style>
   <body>
-      <div id="logo"><img src="images/LogoNitorIncSubtitle.png"><h2>Collaborative Touhou fangame full of rapidfire microgames YOU can help make!</h2></div>
-   
-      <div class="trailer">
 
-        <iframe id = "c" src='https://www.youtube.com/embed/8G_VgpNzR8I' height="421" width="750" style="position:relative; top:8px; border: 5px solid #3eb5b3; border-radius: 10px; ">
-        </iframe>
-      </div>
       
-	<div id="btn">
-	<a href="https://github.com/NitorInc/NitoriWare/releases/tag/1.0.1"><img src="images/dlbtn.png"> </a>
-    <a href="game.html"><img src="images/playbutton.png"></a>
-    </div>
-      
-      <div class="screenshots"><!-- Screenshots
-            <img src="">
-
-
-        --></div>                                                                                                                                        
-  </body>
-    
-        <div class="footer">
+    <div class="top">
+        <img class="logo" src="images/LogoNitorIncSubtitle.png">
         
-        <a class="social" href=" https://twitter.com/nitorinc">Twitter |</a>
-        <a class="social" href="https://twitter.com/nitorinc?lang=en">Facebook |</a>
-        <a class="social" href="http://nitorinc.tumblr.com/">Tumblr |</a>
-        <a class="social" href=" https://discord.gg/Fua4bgj">Discord Server </a>
-            
-        <h2><a href="http://bit.do/nitorinccollab">I want to Contribute to NitorInc!</a></h2>
+        <iframe src="https://youtu.be/8G_VgpNzR8I" height="200" width="300" style="border:2px solid white; border-radius: 20px;"></iframe>
+        
+        <div>
+            <a href=""><img class="btn" src="images/btn_flat.png"></a>
+            <img class="OS" src="images/OS.png">
+            <a href=""><img class="btn" src="images/btn_flat.png"></a>
+            <a href="webdemo.html"><img class="btn" src="images/btn_flat.png"></a>
         </div>
+      
+    </div> 
+      
+    <div class="bottom">
+        <a href="https://twitter.com/nitorinc"><img class="social"src="images/followus.png"></a>
+        
+        
+    </div>
+          
+     
+
+      
+  </body>
 </html>
