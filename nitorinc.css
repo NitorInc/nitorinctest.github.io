@@ -1,4 +1,4 @@
-    body {background-color: #2b2733;}       
+    body {background-color: #2b2733; font-family: 'Orbitron', sans-serif,"Arial Black", Gadget, sans-serif; font-weight: 900;}       
         
         .logo{ height: 150px; margin-top: 50px;}
             h1{font-size:  20px; text-align: center; color: white; margin 0; vertical-align: middle;
@@ -48,7 +48,7 @@
         font-size: 20px;
         background: white; 
         margin: 0 auto;
-            margin-bottom: 50px;
+        margin-bottom: 50px;
         border: 1px dashed #adf72b; 
         align-content:center;
         padding: 20px;
@@ -58,10 +58,14 @@
         }
             .join:hover{background-image: url(images/bg_2copy.png) }
 
-@media only screen and (min-width: 768px){}
+@media only screen and (min-width: 1360px){}
+
+@media only screen and (min-width: 1050px){}
+
+@media only screen and (min-width: 800px){}
 
       /* Mobile */
-@media only screen and (min-width: 768px){}
+@media only screen and (min-width: 400px){}
           
           
           
