@@ -42,16 +42,16 @@
             background-image:url(images/btn_flat.png); 
             border-radius: 100px; 
             width: 17%; height: auto; 
-            margin: 10px auto;
+            margin: 30px 0 30px auto;
             border:1px solid white; 
             display: block;
             margin-bottom: 20px;
             }
-            #compOS {width: 10%; height: auto; display: block;margin: -20px auto 10px auto;}
+            #compOS {width: 17%; height: auto; display: block;margin: -20px 0 10px auto;}
             .btn:hover, .btn:active {border:1px solid #86cef2; opacity: .9;}
         
         .social{
-            height: 50px; padding: 30px; margin: 0 auto;
+            height: 50px; padding: 30px; margin: -30px 0 30px auto;
         }
             .social:hover, .social:active{opacity: .7;}
         
