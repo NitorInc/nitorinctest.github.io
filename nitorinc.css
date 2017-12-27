@@ -1,9 +1,17 @@
     body {background-color: #2b2733; font-family: 'Orbitron', sans-serif,"Arial Black", Gadget, sans-serif; font-weight: 900;}       
         
-        .logo{ height: 150px; margin-top: 50px;}
-            h1{font-size:  20px; text-align: center; color: white; margin 0;
+        .logo{height: 150px; margin-top: 50px;}
+            #h{float: right;}
+                h1{
+                    line-height: 120%;
+                padding-top: 20px;
+                font-size:18px; 
+                text-align: left; 
+                color: white;
+                padding-left: 100px;
             }
-            .logo img {float: left; height: 100px;}
+            .logo img {float:left; height: 100px; margin-right: 10%}
+
         div 
         {
             margin: 30px;
@@ -21,7 +29,6 @@
         .top {width:70%; margin: 0 auto; }
 
         iframe {
-            margin-top: 100px;
             float:left;
             border: 4px solid white; border-radius: 15px;
         }    
@@ -29,13 +36,12 @@
         .btn {
             border-radius: 100px; 
             width: 17%; height: auto; 
-            margin: 30px 10px 30px auto;
+            margin: 20px 10px 30px auto;
             border:1px solid white; 
             display: block;
-            margin-bottom: 20px;
             background-color: #adf72b;
             }
-            #compOS {width: 17%; height: auto; display: block;margin: -20px 0 10px auto;}
+            #compOS {width: 17%; height: auto; display: block;  margin: -30px 10px 30px auto;}
             .btn:hover, .btn:active {border:1px solid #adf72b; opacity: .9; background-color: #96eefb;}
 
         .bottom {background-image: url(images/aqua_bg_flat.png); background-size:cover;  margin-top: 100px; overflow: hidden; border-bottom: 10px solid #cacaca}
@@ -80,31 +86,38 @@
 @media only screen and (max-width: 970px){
      iframe{height:281px; width:500px;}
       .social{height: 40px; padding: 10px;}
-        h1 {font-size: 12px;}
   
-
 }  
+
+
+@media only screen and (max-width: 810px){
+    .logo img{display: block; float: none; clear: both;}
+    .logo {margin-bottom: 20px;}
+    h1{padding: 0;}
+ 
+}
 
 @media only screen and (max-width: 900px){
      iframe{height:225px; width:400px;}
-  
+ 
 }
+
 
 @media only screen and (max-width: 750px){
      iframe{height:185px; width:330px;}
-    .bottom{ margin-top: 70px}
-  
+    .bottom{margin-top: 70px}
 }
 
 @media only screen and (max-width: 600px){
     
     body{font-weight:500}
-    h1{font-size:  15px; display: block; margin: 0 auto; padding: 20px 0; width: 80%;}
+    h1{font-size:15px; display: block; margin: 0 auto; padding: 20px 0; width: 80%; line-height: 120%;}
+    #h{padding: 0;float: none;}
     .logo{margin: 20px auto; float:none;}
-    .logo img {float: none;}
-    iframe{height:200px; width:90%; float:none; border: none; }
+    .logo img {float: none; margin: 0;}
+    iframe{height:200px; width:90%; float:none; border: none; margin: 20px;}
     .btn{width:25%; margin: 20px 10px; display: inline;}
-    #compOS{display: none;}
+    #compOS{display:none;}
     .bottom{background-image: url(images/bg_1.jpg); margin-top:10px;}
     .social{height: 40px; padding: 10px;}
     .top, .bottom {padding: 0; margin: 0 auto; width:100%;}
