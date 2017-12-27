@@ -64,6 +64,7 @@
 
 @media only screen and (max-width: 1180px){
        iframe{height:337px; width:600px;}
+    .join {margin-bottom: 300px;}
 }
 
 @media only screen and (max-width: 1090px){
@@ -74,7 +75,7 @@
 @media only screen and (max-width: 970px){
      iframe{height:281px; width:500px;}
       .social{height: 40px; padding: 10px;}
-    h1 {font-size: 12px;}
+        h1 {font-size: 12px;}
   
 
 }  
@@ -84,8 +85,15 @@
   
 }
 
+@media only screen and (max-width: 750px){
+     iframe{height:185px; width:330px;}
+    .bottom{ margin-top: 70px}
+  
+}
+
+
       /* Mobile */
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 600px){
     
     body{font-weight:500}
     h1{font-size:  15px; display: block; margin: 0 auto; padding: 20px 0; width: 80%;}
@@ -98,8 +106,6 @@
     .social{height: 40px; padding: 10px;}
     .top, .bottom {padding: 0; margin: 0 auto; width:100%;}
     .join {font-size: 15px;}
-    
-    
 }
           
           
