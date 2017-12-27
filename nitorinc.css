@@ -45,7 +45,7 @@
             #compOS {width: 17%; height: auto; display: block;  margin: -20px 10px 20px auto;}
             .btn:hover, .btn:active {border:1px solid #adf72b; opacity: .9; background-color: #96eefb;}
 
-        .bottom {background-image: url(images/aqua_bg_flat.png); background-size:cover;  margin-top: 100px; overflow: hidden; border-bottom: 10px solid #cacaca}
+        .bottom {background-image: url(images/aqua_bg_flat.png); background-size:cover;   margin-top: 100px; overflow: hidden; border-bottom: 10px solid #cacaca}
         
         .social{
             height: 50px; padding: 30px; margin: 10px 0 10px auto;
@@ -72,16 +72,15 @@
 }
 
 @media only screen and (max-width: 1370px){
-       iframe{height:365px; width:650px; padding-bottom: 30px;}
+       iframe{height:365px; width:650px; padding-bottom: 50px;}
 }
 
-@media only screen and (max-height: 1000px){
-    .join {margin-bottom: 500px;}
+@media only screen and (min-height: 1000px){
+    .join {margin-bottom: 300px;}
 }
 
 @media only screen and (max-width: 1180px){
        iframe{height:337px; width:600px;}
-    .join {margin-bottom: 300px;}
 }
 
 @media only screen and (max-width: 1090px){
