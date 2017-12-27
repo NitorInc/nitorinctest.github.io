@@ -58,17 +58,37 @@
         }
             .join:hover{background-image: url(images/bg_2copy.png) }
 
-@media only screen and (min-width: 1360px){}
+@media only screen and (max-width: 1360px){
+       iframe{height:365px; width:650px;}
+}
 
-@media only screen and (min-width: 1050px){}
+@media only screen and (max-width: 1180px){
+       iframe{height:337px; width:600px;}
+}
 
-@media only screen and (min-width: 800px){}
+@media only screen and (max-width: 1090px){
+        iframe{height:309px; width:550px;}
+       
+}
+
+@media only screen and (max-width: 970px){
+     iframe{height:281px; width:500px;}
+      .social{height: 40px; padding: 10px;}
+    h1 {font-size: 12px;}
+  
+
+}  
+
+@media only screen and (max-width: 900px){
+     iframe{height:225px; width:400px;}
+  
+}
 
       /* Mobile */
 @media only screen and (max-width: 550px){
     
     body{font-weight:500}
-    h1{font-size:  15px; display: block; margin: 0 auto;padding: 20px 0; width: 80%;}
+    h1{font-size:  15px; display: block; margin: 0 auto; padding: 20px 0; width: 80%;}
     .logo{margin: 20px auto; float:none;}
     .logo img {float: none;}
     iframe{height:200px; width:90%; float:none; }
