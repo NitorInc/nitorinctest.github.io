@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/zbt3alj.css">
     <meta charset="utf-8">
+    
+    
+    <style>
+        #c {
+            display: block;
+	        text-align:center;
+	        margin:auto
+        }
+        
+        .logo {margin-left: .5%; margin-top: .5%; height: 80px; width: auto;}
+
+        
+      body {background-image: url(images/bg_1.jpg); overflow: hidden; background-size:cover}
+        
+        body img, body h1 {display: block;
+        }
+        
+        body a img {width: 300px; margin-top: 50px;}
+        body a:hover {opacity: 70%;cursor:pointer;}
+        
+        @media screen and (max-width: 480px){
+        
+            
+            .logo {width: 60%; height: auto;margin: 
+        }
+        
+    </style>
+  <head>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>NitorInc. Demo | Web Player</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
@@ -13,13 +41,19 @@
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/NitorInc Demo WebGL.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body background="images/bg_2.png">
-  <img style="position:static" src="images/LogoNitorIncSubtitle.png">
+  <body>
     <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 720px; position: relative; top: 300px"></div>
-      <div class="footer" style="font-family:Pacifico; font-size:36px; position: relative; top: 300px">
-NitorInc.: Touhou Microgames$ Demo.
-      </div>
+      <div id="gameContainer" style="width: 960px; height: 720px"></div>
     </div>
+      
+      <a href="index.html"><img class="logo" src="images/LogoNitorIncSubtitle.png"></a>
+      
+
+      
+      <div id="pagemain">
+
+     
+      </div>
+      
   </body>
 </html>
