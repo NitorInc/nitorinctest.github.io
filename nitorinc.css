@@ -1,7 +1,7 @@
     body {background-color: #2b2733; font-family: 'Orbitron', sans-serif,"Arial Black", Gadget, sans-serif; font-weight: 900;}       
         
         .logo{ height: 150px; margin-top: 50px;}
-            h1{font-size:  20px; text-align: center; color: white; margin 0; vertical-align: middle;
+            h1{font-size:  20px; text-align: center; color: white; margin 0;
             }
             .logo img {float: left; height: 100px;}
         div 
@@ -65,7 +65,22 @@
 @media only screen and (min-width: 800px){}
 
       /* Mobile */
-@media only screen and (min-width: 400px){}
+@media only screen and (max-width: 550px){
+    
+    body{font-weight:500}
+    h1{font-size:  15px; display: block; margin: 0 auto;padding: 20px 0; width: 80%;}
+    .logo{margin: 20px auto; float:none;}
+    .logo img {float: none;}
+    iframe{height:200px; width:90%; float:none; }
+    .btn{width:25%; margin: 20px 10px; display: inline;}
+    #compOS{display: none;}
+    .bottom{background-image: url(images/bg_1.jpg); margin-top:10px;}
+    .social{height: 40px; padding: 10px;}
+    .top, .bottom {padding: 0; margin: 0 auto; width:100%;}
+    .join {font-size: 15px;}
+    
+    
+}
           
           
           
