@@ -113,14 +113,16 @@
     .bottom{margin-top: 70px}
 }
 
-@media only screen and (max-width: 600px){
+
+
+@media only screen and (max-width: 620px){
     
     body{font-weight:500}
     h1{font-size:15px; display: block; margin: 0 auto; padding: 20px 0; width: 80%; line-height: 120%;}
     #h{padding: 0;float: none;}
     .logo{margin: 20px auto; float:none;}
     .logo img {float: none; margin: 0 auto;}
-    iframe{height:200px; width:90%; float:none; border: none; margin: 20px;}
+    iframe{height:213px; width:380px; float:none; border: none; margin: 20px;}
     .btn{width:25%; margin: 20px 10px; display: inline;}
     .btn:active{background-image:none;}
     #compOS{display:none;}
@@ -130,6 +132,8 @@
     .join {font-size: 15px;}
     .join:active{background-image: none;}
 }
+
+@media only screen and (max-width: 440px){  iframe{height:200px; width:90%;}}
           
           
           
