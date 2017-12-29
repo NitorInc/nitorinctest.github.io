@@ -66,8 +66,8 @@
         }
             .join:hover{ background-image: url(images/nitoOK.gif); background-position: bottom left; background-size: contain; background-repeat: no-repeat;}
 
-#sp{height: 100px; display: block;}
-#sp h3{margin: -3000; overflow: hidden; font-size: 1px;}
+#sp{height: 1px; display: block;}
+    #sp h3{margin: -3000; overflow: hidden; font-size: 1px;}
 
 @media only screen and (min-width: 1600px){
     #compOS, .btn{margin-right: auto;}
@@ -76,6 +76,7 @@
 
 @media only screen and (max-width: 1370px){
        iframe{height:365px; width:650px;}
+        #sp{height: 0; display: block;}  
 }
 
 @media only screen and (min-height: 1000px){
@@ -109,8 +110,6 @@
 
 @media only screen and (max-width: 900px){
      iframe{height:225px; width:400px;}
-           .bottom {margin-top: 150px;}
- 
 }
 
 
