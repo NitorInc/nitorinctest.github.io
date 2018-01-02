@@ -1,80 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<link rel="stylesheet" href="https://use.typekit.net/zbt3alj.css">
-    <meta charset="utf-8">
-      <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>NitorInc.</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="stylesheet" href="TemplateData/reset.css">
-  </head>
-    
     <style>
         #c {
             display: block;
 	        text-align:center;
 	        margin:auto
         }
-        
-        .logo {margin-left: 3%; margin-top: 3%; height: 120px;}
-        
-        h1 {
-            margin: -20px;
-            font-family: "Iskra", Helvetica, Sans-serif; 
-            font-weight: bold;
-            color: white;
-            font-size: 150px;
-           display: block;
-            text-align:left;
-            z-index: 1;}
-        
-        .nitori {float: left; margin: 0 auto; left: 0;right: 0;width: 30%; margin-left: 180px;}
-        
-        #pagemain {float: right; width: 55%}
-        
-      body {background-image: url(images/bg_1.jpg); overflow: hidden; background-size:cover}
-        
-        body img, body h1 {display: block;
-        }
-        
-        .btn {width: 300px; margin-top: 50px; z-index: 3;}
-         .btn:hover {opacity: 70%; cursor:pointer;}
-        
-        
-        @media screen and (max-width: 980px){.nitori{margin-left: 50px;}  h1{font-size: 100px;}}
-        
-        @media screen and (max-width: 480px){
-            .nitori, a, a img, h1, #pagemain {display:block; float: none; clear: both; width: 90%; margin: 50px auto;}
-            
-            .btn{width: 80%; height: auto;}
-            
-            .nitori {position: fixed; height: auto; width: 30%;  bottom: -90px; z-index: -1;}
-            
-            .logo {width: 60%; height: auto; margin: 50px auto;}
-            
-            h1 {text-align: center; font-size: 70px;}   
-        }
-        
     </style>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>NitorInc. Demo | Web Player</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/NitorInc Demo WebGL.json", {onProgress: UnityProgress});
+    </script>
+  </head>
   <body>
-
-      
-                <img class="logo" src="images/LogoNitorIncSubtitle.png">
-      
-      <img class="nitori" src="images/nitopromo.png">
-      
-      <div id="pagemain">
-
-          
-          <h1>WEBSITE COMING SOON!</h1>
-          <a href="webdemo.html"><img class="btn" src="images/web_btn.png"></a> 
-        
-          <a href="https://twitter.com/nitorinc"><img class="btn"src="images/followus.png"></a>
-          
-     
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 720px"></div>
+      <div class="footer">
+        <div class="title">NitorInc.: Touhou Microgame$ Demo</div>
+    <div id = "c">
+        <a href="https://github.com/NitorInc/NitoriWare/releases/tag/1.0.2"><img src="images/dlbtn.png" style = "position: relative; left:150px; top: 30px"></a>
+    </div>
       </div>
-      
+    </div>
   </body>
 </html>
