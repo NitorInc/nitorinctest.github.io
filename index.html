@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <style>
-        #c {
-            display: block;
-	        text-align:center;
-	        margin:auto
-        }
-    </style>
-  <head>
     <meta charset="utf-8">
+    <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>NitorInc. Demo | Web Player</title>
+    <title>NitorInc.</title>
+    <link rel="stylesheet" href="nitorinc.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/NitorInc Demo WebGL.json", {onProgress: UnityProgress});
-    </script>
+<link rel="stylesheet" href="TemplateData/reset.css">
+<link href="https://fonts.googleapis.com/css?family=Orbitron:500,900" rel="stylesheet">
+   
+
   </head>
+
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 720px"></div>
-      <div class="footer">
-        <div class="title">NitorInc.: Touhou Microgame$ Demo</div>
-    <div id = "c">
-        <a href="https://github.com/NitorInc/NitoriWare/releases/tag/1.0.2"><img src="images/dlbtn.png" style = "position: relative; left:150px; top: 30px"></a>
+
+      
+    <div class="top">
+        <div class="logo"><img src="images/LogoNitorIncSubtitle.png"> <h1>Fast-paced, crazy fun microgames starring all sorts of Touhou characters!</br>And YOU can help make them!</h1>
+        </div>
+        
+
+        <iframe src='https://www.youtube.com/embed/8G_VgpNzR8I'   height="421" width="750">
+        </iframe> 
+     
+           
+            <a href="http://store.steampowered.com/app/772260/NitorInc_Touhou_Microgames/"><img class="btn" src="images/steambtn.png"></a>
+          <img id="compOS" src="images/OS_flat.png">
+            <a href="game.html"><img class="btn" src="images/webbtn.png"></a>
+    </div> 
+      
+      <div id="sp"><h3>a</h3></div>
+      
+    <div class="bottom">
+        <a href="https://twitter.com/nitorinc"><img class="social"src="images/twitter.png"></a>
+        <a href="https://discordapp.com/invite/Fua4bgj"><img class="social"src="images/discord.png"></a>
+        <a href="https://www.facebook.com/NitorInc/"><img class="social"src="images/fb.png"></a>
+        <a href="http://nitorinc.tumblr.com/"><img class="social"src="images/tumblr.png"></a>
+        
+        <a href="https://t.co/YlDZ2eqKqR" class="join"> I want to contribute!</a>
+        
     </div>
-      </div>
-    </div>
+       
   </body>
 </html>
